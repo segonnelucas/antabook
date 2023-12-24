@@ -11,7 +11,7 @@ export const Button = ({ moreClass, transitionTime, label, ...props }) => {
     <button
       type="button"
       data-timing={transitionTime + "s"}
-      style={{marginRight: transitionTime + 'em'}}
+      style={{marginRight: transitionTime + 'px'}}
       className={moreClass ? 'button ' + moreClass : 'button'}
       {...props}
     >
